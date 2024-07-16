@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ESNext",
+    "lib": ["DOM", "ESNext"],
+    "jsx": "react",
+    "declaration": true,
+    "declarationDir": "./dist/types",
+    "outDir": "./dist",
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node", "jest", "react", "react-dom"]
+  },
+  "include": ["src", "jest.setup.ts"]
+}
